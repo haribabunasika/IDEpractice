@@ -5,6 +5,8 @@ public class StreamDemo {
 
         System.out.println("welcome");
         
+        System.out.println("Newly added from remote repo");
+        
 
     }
 
