@@ -1,16 +1,15 @@
 package com;
 
-import java.util.*;
-import java.util.function.Function;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import java.util.Arrays;
+import java.util.List;
 
 
 public class ListDemo {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1,2,3,4,6,6,4);
         list.stream().distinct().forEach(System.out::println);
-        System.out.println("Remote changes from haribabu.java4s@gmail_dev");
+        //The below line is commented.
+        //System.out.println("Remote changes from haribabu.java4s@gmail_dev");
 
         System.out.println("Remote  and changes from haribabu.nasika@gmail_dev");
 
