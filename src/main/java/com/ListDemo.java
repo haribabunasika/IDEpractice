@@ -11,6 +11,7 @@ public class ListDemo {
         //The below line is commented.
         //System.out.println("Remote changes from haribabu.java4s@gmail_dev");
 
+        List<String> numbers = Arrays.asList("one", "two", "one", "two", "three", "four");
         System.out.println("Remote  and changes from haribabu.nasika@gmail_dev");
 
         System.out.println("Local changes from haribabu.nasika@gmail_dev");
